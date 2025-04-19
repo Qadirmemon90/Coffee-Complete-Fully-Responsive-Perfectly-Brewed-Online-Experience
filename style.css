@@ -106,7 +106,7 @@ header .navbar {
   color: var(--primary-color);
   background: var(--secondary-color);
 }
-.navbar :where(#menu-open-button, #menu-close-button) {
+.navbar #menu-open-button, #menu-close-button {
   display: none;
 }
 /* Hero section styling */
